@@ -18,10 +18,20 @@ const Cursor = () => {
       if (
         e.target.tagName === 'A' ||
         e.target.tagName === 'BUTTON' ||
+        e.target.tagName === 'INPUT' ||
+        e.target.tagName === 'TEXTAREA' ||
+        e.target.tagName === 'SELECT' ||
         e.target.closest('a') ||
         e.target.closest('button') ||
+        e.target.closest('input') ||
+        e.target.closest('textarea') ||
+        e.target.closest('select') ||
         e.target.closest('.card') ||
-        e.target.closest('.property-card')
+        e.target.closest('.property-card') ||
+        e.target.closest('.admin-nav-item') ||
+        e.target.closest('.admin-list-item') ||
+        e.target.closest('.admin-calendar-day') ||
+        e.target.closest('[role="button"]')
       ) {
         setIsHovering(true);
       }
