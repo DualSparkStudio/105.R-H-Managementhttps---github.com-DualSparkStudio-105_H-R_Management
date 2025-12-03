@@ -11,6 +11,7 @@ import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 import Cursor from './components/Cursor';
 import './App.css';
 
@@ -73,6 +74,7 @@ function App() {
       <CTASection />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getWhatsAppUrl } from '../config/whatsapp';
 import './Contact.css';
 
 const Contact = () => {
@@ -229,6 +230,20 @@ const Contact = () => {
                 <div>
                   <p className="info-label">Service Region</p>
                   <p className="info-value">Global</p>
+                </div>
+              </div>
+              <div className="info-item">
+                <div className="info-icon">💬</div>
+                <div>
+                  <p className="info-label">WhatsApp</p>
+                  <a
+                    href={getWhatsAppUrl()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="info-value"
+                  >
+                    Chat with us
+                  </a>
                 </div>
               </div>
             </div>

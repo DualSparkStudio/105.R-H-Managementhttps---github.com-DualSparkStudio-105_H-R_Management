@@ -1,4 +1,5 @@
 import React from 'react';
+import { getWhatsAppUrl } from '../config/whatsapp';
 import './Footer.css';
 
 const Footer = () => {
@@ -53,6 +54,15 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">Connect</h4>
             <div className="footer-social">
+              <a
+                href={getWhatsAppUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+                aria-label="WhatsApp"
+              >
+                WhatsApp
+              </a>
               <button type="button" className="social-link" aria-label="LinkedIn">
                 LinkedIn
               </button>

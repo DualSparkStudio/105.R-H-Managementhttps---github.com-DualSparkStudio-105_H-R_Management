@@ -95,6 +95,10 @@
   font-family: inherit;
 }
 
+.social-link[href] {
+  text-decoration: none;
+}
+
 .social-link::after {
   content: '';
   position: absolute;
