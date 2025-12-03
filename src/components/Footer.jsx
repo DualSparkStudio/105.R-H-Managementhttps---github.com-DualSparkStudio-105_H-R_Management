@@ -53,15 +53,15 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">Connect</h4>
             <div className="footer-social">
-              <a href="#" className="social-link" aria-label="LinkedIn">
+              <button type="button" className="social-link" aria-label="LinkedIn">
                 LinkedIn
-              </a>
-              <a href="#" className="social-link" aria-label="Twitter">
+              </button>
+              <button type="button" className="social-link" aria-label="Twitter">
                 Twitter
-              </a>
-              <a href="#" className="social-link" aria-label="Instagram">
+              </button>
+              <button type="button" className="social-link" aria-label="Instagram">
                 Instagram
-              </a>
+              </button>
             </div>
           </div>
         </div>
